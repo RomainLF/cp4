@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/index";
 import Footer from "./components/Footer/index";
 import Home from "./pages/Home";
+import Figma from "./pages/Figma";
 import Monde from "./pages/Monde";
 import SGlobal from "./style";
 import Category from "./components/Category";
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Monde" element={<Monde />} />
+          <Route path="/Figma" element={<Figma />} />
           <Route path="/Homme" element={<Category />} />
           <Route path="/Femme" element={<Category />} />
           <Route path="/Cadeaux" element={<Cadeaux />} />
