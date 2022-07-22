@@ -1,6 +1,6 @@
 ## Concept
 
-Personal project: Front e-commerce website
+checkpoint 4 de la wild Code School Front et back 20/21 Juillet
 
 ## Setup & Use
 
